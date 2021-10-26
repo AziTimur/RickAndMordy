@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.ui.character_detail.DetailFragment">
+
+    <ImageView
+        android:id="@+id/detail_photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/status"
+        style="@style/tv_detail"
+        tools:text="asdasd" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/tv_detail"
+        tools:text="klsjadfnlksajd" />
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/img_it"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/stsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alive"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/img_it"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name Smith"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@id/img_it"
+        app:layout_constraintTop_toBottomOf="@+id/stsTV"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

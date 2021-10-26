@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/charakterFragment">
+
+    <fragment
+        android:id="@+id/charakterFragment"
+        android:name="com.example.rickandmordy.ui.ui.charakter_list.CharakterFragment"
+        android:label="fragment_charakter"
+        tools:layout="@layout/fragment_charakter" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.rickandmordy.ui.ui.character_detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+</navigation>
